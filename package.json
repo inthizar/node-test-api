@@ -1,0 +1,33 @@
+{
+  "name": "testapi_app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "export NODE_ENV=test && mocha --recursive",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/inthizar/node-test-api.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/inthizar/node-test-api/issues"
+  },
+  "homepage": "https://github.com/inthizar/node-test-api#readme",
+  "dependencies": {
+    "async": "^3.2.0",
+    "config": "^3.3.3",
+    "dotenv": "^8.2.0",
+    "email-validator": "^2.0.4",
+    "express": "^4.17.1",
+    "helmet": "^4.3.1",
+    "mysql": "^2.18.1",
+    "request-sanitizer": "0.0.6"
+  },
+  "devDependencies": {
+    "mocha": "^8.2.1"
+  }
+}

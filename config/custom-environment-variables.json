@@ -1,0 +1,12 @@
+{
+  "env": "NODE_ENV",
+  "port": "PORT",
+  "host": "HOST",
+  "db": {
+    "user": "DB_USER",
+    "password": "DB_PASS",
+    "host": "DB_HOST",
+    "name": "DB_NAME",
+    "port": "DB_PORT"
+  }
+}
